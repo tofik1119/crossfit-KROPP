@@ -4,7 +4,7 @@
   font-family: 'Heebo';
   font-style: normal;
   font-weight: 300;
-  src: url('/fonts/heebo-v27-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('crossfit-KROPP/fonts/heebo-v27-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* heebo-700 - latin */
 @font-face {
@@ -12,14 +12,14 @@
   font-family: 'Heebo';
   font-style: normal;
   font-weight: 700;
-  src: url('/fonts/heebo-v27-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('crossfit-KROPP/fonts/heebo-v27-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }/* yantramanav-700 - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: 'Yantramanav';
   font-style: normal;
   font-weight: 700;
-  src: url('/fonts/yantramanav-v14-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('crossfit-KROPP/fonts/yantramanav-v14-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -186,7 +186,7 @@ b {
 
 .button::after {
   content: " ";
-  background: url(/img/svg/small-thin-right-top-arrow.svg) center no-repeat;
+  background: url(crossfit-KROPP/img/svg/small-thin-right-top-arrow.svg) center no-repeat;
   border: var(--border);
   border-radius: 50%;
   align-items: center;
@@ -232,7 +232,7 @@ select.input:invalid {
   display: block;
   width: 26px;
   aspect-ratio: 1;
-  background: url(/img/svg/before-title-lines.svg) center no-repeat;
+  background: url(crossfit-KROPP/img/svg/before-title-lines.svg) center no-repeat;
 }
 
 .header {
@@ -360,7 +360,7 @@ select.input:invalid {
   content: " ";
   width: clamp(60px, 10.1vw, 194px);
   aspect-ratio: 1;
-  background: url(/img/svg/bold-arrow-down-right.svg) center/contain no-repeat;
+  background: url(crossfit-KROPP/img/svg/bold-arrow-down-right.svg) center/contain no-repeat;
   margin-right: 30px;
 }
 
@@ -482,7 +482,7 @@ select.input:invalid {
   flex-direction: column;
   align-items: center;
   row-gap: 30px;
-  background: url(/img/svg/training-types/thin-arrow-left-bottom.svg) 95% 0%/var(--trainingTypesItemBgIconSize) no-repeat;
+  background: url(crossfit-KROPP/img/svg/training-types/thin-arrow-left-bottom.svg) 95% 0%/var(--trainingTypesItemBgIconSize) no-repeat;
   padding-top: var(--trainingTypesItemBgIconSize);
 }
 
@@ -499,7 +499,7 @@ select.input:invalid {
 }
 
 .subscribe-banner {
-  background: url(/img/subscribe/subscribe-background-image.jpg) center/cover no-repeat var(--color-dark-alternate);
+  background: url(crossfit-KROPP/img/subscribe/subscribe-background-image.jpg) center/cover no-repeat var(--color-dark-alternate);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -529,7 +529,7 @@ select.input:invalid {
 .subscribe-banner-button::after {
   content: " ";
   display: block;
-  background: url(/img/svg/small-thin-right-top-arrow.svg) center no-repeat;
+  background: url(crossfit-KROPP/img/svg/small-thin-right-top-arrow.svg) center no-repeat;
   width: 20px;
   height: 25px;
   margin-left: 5px;
@@ -560,7 +560,7 @@ select.input:invalid {
   aspect-ratio: 1;
   display: inline-block;
   margin-left: 0.14em;
-  background: url(/img/svg/bold-right-top-arrow.svg) center/contain no-repeat;
+  background: url(crossfit-KROPP/img/svg/bold-right-top-arrow.svg) center/contain no-repeat;
 }
 
 .subscribe-article {
